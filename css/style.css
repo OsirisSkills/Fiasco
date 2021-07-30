@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    background: url(../img/eggs.jpg) no-repeat center center;
+    background-size: cover;
+    height: 65vh;
+
+}
+
+
+main{
+    background: url(../img/oranges.jpg) fixed no-repeat top 95px right 0px;
+}
+
+/* Header_Nav */
+
+.navHover:hover{
+color: #C89446;
+}
+
+.contentTitle{
+    padding-top: 6%;
+}
+
+
+a.borderNav{
+    border: solid 1px #C89446;
+    color: white ;
+}
+
+a.borderNav:hover{
+    color: white ;
+    background-color: #C89446;
+} 
+
+a.navHover{
+    color: white;
+}
+
+a.navHover:hover{
+    transition-delay: 0.5s;
+    color: #C89446; 
+}
+
+a.navTitle{
+    color: white;
+}
+
+
+
+h1{
+    font-family: 'Pinyon Script', cursive;
+    color: #C89446;
+    font-size: 5vh;
+}
+
+.space{
+    letter-spacing: 0.5vw;
+    font-size: 6vh;
+
+}
+
+/* Section 1 */
+.sectOne{
+    background: url(../img/spices.jpg) no-repeat fixed top 640px left 0px;
+}
+.contentText1{
+    padding-left: 6%;
+}
+
+.contentText2{
+    padding-right: 6%;
+}
+
+h2{
+    font-family: 'Pinyon Script', cursive;
+    color: #C89446;
+    margin-bottom: 0%;
+}
+
+h3{
+color: black;
+}
+
+.formatText{
+    color: #6F6F6F;
+}
+
+.seeMore{
+    color: #C89446;
+    text-decoration: none;
+    text-underline-offset: 2px;
+}
+.seeMore:hover{
+    text-decoration: underline #C89446;
+    color: #C89446;
+}
+
+/* Section 1_Position Cadre */
+
+.posCadre1{
+    border: 2px solid #C89446;
+    position: relative;
+    top: -20px;
+}
+
+.pos1{
+    position: relative;
+    bottom: -20px;
+    right: -20px;
+}
+
+.posCadre2{
+    border: 2px solid #C89446;
+    position: relative;
+    top: -20px;
+}
+
+.pos2{
+    position: relative;
+    bottom: -20px;
+    left: -20px;
+}
+
+
+
+/* Section 2 */
+
+.sectTwo{
+    margin: 5% 0% 0% 0%;
+    background: url(../img/spices.jpg) no-repeat fixed top 640px left 0px;
+}
+
+.icoSeparateur{
+    display: block;
+    margin: auto;
+}
+
+.navMenu{
+    color: black;
+}
+
+
+a.navMenu:hover{
+    text-decoration: underline #C89446;
+    color: #C89446;
+    border-bottom: 10px;
+    text-underline-offset: 5px;
+    transition-delay: 0.5s;
+}
+
+
+/* Section 3 */
+
+.sectThree{
+    margin-top: 7%;
+
+
+}
+
+article{
+    margin-bottom: 5%;
+}
+
+.card-horizontal {
+    display: flex;
+  }
+
+  .Revers{
+    text-align: end;
+}
+
+
+.price{
+    font-family: 'Pinyon Script', cursive;
+    color: #C89446;
+    font-size: 30px;
+}
+
+
+/* Section 4 */
+
+.sectFour{
+    background: url(../img/spices.jpg) no-repeat fixed top 640px left 0px;
+}
+
+
+/* Section 5 */
+.sectFive{
+
+    background: linear-gradient(180deg , rgba(0, 0, 0, 0.92), rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)), url(../img/reservation.jpg) center center / cover no-repeat;;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.h3Rest{
+    color: white;
+}
+
+.formatText2{
+color: rgba(255, 255, 255, 0.6);
+}
+
+.btn{
+    background-color: #C89446;
+    color: white;
+    width: 100%;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: white;
+    transition-delay: 0.3s;
+}
+
+.form-control{
+    color: rgba(255, 255, 255, 0.6);
+    background-color: transparent;
+}
+
+ /* .form-control:hover{
+    background-color: rgb(77, 77, 77);
+    opacity: 0.33;
+} */
+
+
+
+/* Section 6 */
+
+.sectSix{
+  padding: 3% 10% 0% 0%;
+  background: url(../img/news-bg.jpg) no-repeat top left / 50vw auto ;
+}
+ul li{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #6F6F6F;
+    list-style-type: none;
+    padding-bottom: 2%;
+}
+
+/* Section 7 */
+
+.sectSeven{
+    padding: 0% 0% 0% 0%;
+    height: 45vh;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Section Footer */
+footer{
+    background: url(../img/splash.png) no-repeat bottom right;
+}
+
+.ulTitle{
+    color: #C89446;
+}
+
+
+
+
+
+
+
+                /* MEDIA SECTION 1 */
+
+                @media (min-width: 240px) and (max-width: 1390px){ 
+                        
+                    .posCadre1{
+                       position: unset;
+                    }
+
+                    .pos1{
+                       position: unset;
+                    }
+
+                    .posCadre2{
+                        position: unset;
+                    }
+   
+                    .pos2{
+                        position: unset;
+                    }
+                }
+
+
+        
+                /* MEDIA SECTION 3 */
+
+                @media (min-width: 240px) and (max-width: 990px) { 
+                        
+                    .respondRevers{
+                        flex-direction: row-reverse;
+                        justify-content: center;
+                    }
+
+                    .sectThree{
+                        margin-top: 2%;
+                    }
+
+                    .Revers{
+                        text-align: start;
+                    }
+
+                    article{
+                        margin-bottom: 0%;
+                    }
+
+                    .price{
+                        font-size: 50px;
+                    }
+                }
+
+
+                /* MEDIA SECTION 4 */
+
+                @media (min-width: 240px) and (max-width: 992px) { 
+        
+                    .selectMedia{
+                        flex-direction: column-reverse;
+                        justify-content: center;
+                    }
+
+                    .sectFour{
+                        padding-top: 3%;
+                    }
+
+                    .chief{
+                        border: solid 1px #C89446;
+                    }
+                }
+
+
+
+
+
+
+
+
+
+
